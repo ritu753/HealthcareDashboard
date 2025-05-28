@@ -1,0 +1,38 @@
+:root{
+  --primary-col:#2ac2cb;
+  --secondary-col:#3736a8;
+  --grey-col:#f7f9ff;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.main-container{
+    min-height: 100vh;
+}
+.sidebar {
+  width: 260px;
+  background-color: var(--grey-col);
+  padding: 2rem 1rem;
+  position: fixed;
+  top:0rem;
+  left: 0;
+  height: 100%;
+  bottom: 0;
+   padding: 12px 5%;
+}
+.main-content{
+  margin-left:260px;
+}
+@media  screen and (max-width:991px) {
+  .main-content{
+    margin-left: 0px;
+  }
+  .sidebar{
+    display: none;
+    width: 0;
+  }
+  
+}

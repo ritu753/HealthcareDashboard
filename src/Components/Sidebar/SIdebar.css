@@ -1,0 +1,35 @@
+.nav-title{
+  font-size: 14px;
+  color: #1b1b1b52;
+  margin-bottom: 1rem;
+}
+.nav-section{
+  margin-bottom: 1rem;
+}
+.nav-section:nth-child(3){
+  margin-top: auto;
+}
+.nav-link{
+  color: #1b1b1b52;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  display: flex;
+  align-items: center;
+}
+.nav-section:first-child .nav-link:first-of-type {
+  color: black;
+}
+.nav-link i{
+  font-size: 16px;
+  margin-right: 12px;
+}
+.nav-link span{
+    font-size: 14px;
+  font-weight: 600;
+}
+.nav-cont{
+  margin-top: 4rem !important;
+  display: flex;
+  flex-direction: column;
+  height: 85vh;
+}

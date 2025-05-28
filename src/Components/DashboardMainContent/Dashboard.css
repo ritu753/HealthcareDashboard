@@ -1,0 +1,268 @@
+section{
+  margin-top: 4rem !important;
+}
+.info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.4rem;
+}
+.info h5{
+  color: var(--secondary-col);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.info p{
+  font-size: 14px;
+  color: var(--secondary-col);
+  display: flex;
+  align-items: center;
+}
+.dashboard{
+  display: flex;
+  justify-content: space-between;
+}
+.left-dashboard,
+.right-dashboard{
+  width: 50%;
+  padding: 10px 20px;
+}
+.stucture-body{
+  display: flex;
+  justify-content: space-between;
+}
+.body-skel{
+  width: 260px;
+  height: 320px;
+}
+.body-info{
+  width: 50%;
+  margin-left: 1rem;
+  flex:1;
+}
+.card a{
+  font-weight: 700;
+}
+.progessbar{
+  width: 100%;
+  height: 6px;
+  background: #dbe0ee;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+.bar{
+  width: 80%;
+  height: 6px;
+  border-radius: 1rem;
+}
+.bar-0{
+  background: #a64241;
+}
+.bar-1{
+  background: #7acdbf;
+}
+.bar-2{
+  background: #ff7c5e;
+}
+.body-info .card p{
+  color: #1b1b1b52;
+  font-size: 14px;
+}
+.card{
+  width: 200px;
+  background: var(--grey-col);
+  padding: 1rem 2rem;
+  border-radius: 12px;
+}
+.card:not(:first-child){
+  margin-top: 0.8rem;
+}
+.parts img{
+  width: 40px;
+  height:40px;
+  margin-right: 12px;
+}
+.parts{
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+}
+.date-info{
+  display:flex ;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.date-container{
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.right-dashboard{
+  background: var(--grey-col);
+}
+.date-info h2{
+  color: var(--secondary-col);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.date-info a{
+  font-size: 14px;
+  color: var(--secondary-col);
+}
+.day-cont{
+  font-size: 12px;
+  color: var(--secondary-col);
+  margin-bottom: 8px;
+}
+.date-con{
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--secondary-col);
+  margin-bottom: 8px;
+}
+.time-cont{
+  font-size: 12px;
+  color: #363636;
+  margin-bottom: 8px;
+}
+.slots{
+  padding: 10px 20px;
+  border-radius: 0.8rem;
+}
+.slots:nth-child(2){
+  background: #dbe0ee;
+
+}
+
+.appointments-con{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.appoint{
+  padding: 10px 20px;
+  border-radius: 1rem;
+}
+.appoint h3{
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.appoint p{
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+.appoint:first-child{
+  background-color: var(--secondary-col);
+  color: #fff;
+}
+.appoint:nth-child(2){
+  background-color:#dbe0ee ;
+  flex: 1;
+}
+
+.upcoming-schedule h3{
+  color: var(--secondary-col);
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+.day-group h4{
+  font-size: 14px;
+  color: #1b1b1b52;
+}
+.day-appointments{
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.simple-card{
+  background-color: #dbe0ee;
+  padding: 15px 30px;
+  border-radius: 1rem;
+}
+.simple-card-con{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.6rem;
+}
+.simple-card-con h5{
+  color: var(--secondary-col);
+  margin-right: 3rem;
+}
+.simple-card p{
+  font-size: 12px;
+}
+.activity-container {
+  padding: 20px;
+  background: var(--grey-col);
+  border-radius: 10px;
+  max-width: 600px;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.activity-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.activity-title {
+  margin: 0;
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.activity-info {
+  font-size: 14px;
+  color: #a0aec0;
+}
+
+.activity-chart {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.activity-day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.bar-group {
+  display: flex;
+  gap: 2px;
+}
+
+.activitybar {
+  width: 4px;
+  border-radius: 2px;
+  margin-left: 0.4rem;
+}
+
+.day-label {
+  margin-top: 6px;
+  font-size: 12px;
+  color: #a0aec0;
+}
+
+@media  screen and (max-width:1261px) {
+  .dashboard{
+    flex-direction: column;
+  }
+  .left-dashboard,
+.right-dashboard{
+  width: 100%;
+}
+  
+}
